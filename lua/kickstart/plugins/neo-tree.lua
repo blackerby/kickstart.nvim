@@ -2,6 +2,7 @@
 -- https://github.com/nvim-neo-tree/neo-tree.nvim
 
 return {
+  lazy = false,
   'nvim-neo-tree/neo-tree.nvim',
   version = '*',
   dependencies = {
@@ -20,6 +21,7 @@ return {
           ['\\'] = 'close_window',
         },
       },
+      hijack_netrw_behavior = 'open_default',
     },
   },
 }
